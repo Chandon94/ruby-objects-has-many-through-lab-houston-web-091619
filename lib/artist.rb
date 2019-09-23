@@ -1,4 +1,7 @@
 class Artist 
+  
+  atrr_accessor :name
+  
   @@all = []
   
   def initialize(name)
